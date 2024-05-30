@@ -24,7 +24,7 @@ const AddedTask = () => {
       <form onSubmit={HandleSubmitToDo}>
         <div className="flex justify-between items-stretch">
           <input value={NewTaskvalue} onChange={(e) => setNewTaskvalue(e.target.value)} type="task" className="block me-3 grow p-2 text-gray-50 border border-gray-900 rounded-lg bg-gray-800 text-s focus:ring-black focus:border-black" placeholder="Add new task" />
-          <button type="submit" className="text-white hover:text-white border-4 border-green-600 hover:bg-green-800 font-medium rounded-lg text-sm px-1 py-2.5 text-center me-2 ms-1 flex-none w-40">ADD TASK</button>
+          <button type="submit" className="text-white hover:text-white bg-green-500  border-4 border-green-600 hover:bg-green-800 font-medium rounded-lg text-sm px-1 py-2.5 text-center me-2 ms-1 flex-none w-40">ADD TASK</button>
         </div>
       </form>
     </div>
